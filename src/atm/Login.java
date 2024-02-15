@@ -1,7 +1,7 @@
 package atm;
 import java.sql.*;
 import java.util.Scanner;
-public class Login {
+public class Login extends Register{
     static Scanner sc = new Scanner(System.in);
     public void login(){
         try{
